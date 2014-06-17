@@ -56,9 +56,12 @@
 }
 .test-btn-dropdown {
   background-color: #553d7c;
-  color: #fff;
   margin: 7px 0 0 0;
 }
+.test-btn {
+  color: #fff;}
+.test-btn-list li a
+{ color: #553d7c !important;}
 }
 @media (min-width: 768px) {
   .sidebar-nav .navbar .navbar-collapse {
