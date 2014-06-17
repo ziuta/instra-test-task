@@ -25,21 +25,19 @@
   padding: 20px;
 }
 @media (min-width: 768px) {
-  .main {
-    padding-right: 40px;
-    padding-left: 40px;
-  }
+ 
+.navbar-inverse .container div ul li a{
+  color: #fff;
 }
-.main .page-header {
-  margin-top: 0;
-}
-
 .sidebar-nav .navbar.navbar-default {
   background-color: #f7f6fa;
   border: none;
 }
 .sidebar-nav .navbar.navbar-default ul li:hover {
   background-color: #e5e3e9;
+}
+.test-col-panels {
+  height: 180px;
 }
 .test-panel {
   width: 165px;
@@ -49,6 +47,18 @@
 .test-panel-padding {
   padding: 9px 15px;
   line-height:35px;
+}
+.test-table span {
+  margin-right: 6px;
+}
+.test-table button {
+  margin-left: 10px;
+}
+.test-btn-dropdown {
+  background-color: #553d7c;
+  color: #fff;
+  margin: 7px 0 0 0;
+}
 }
 @media (min-width: 768px) {
   .sidebar-nav .navbar .navbar-collapse {
@@ -71,6 +81,7 @@
     border-right: 2px solid #553d7c;
     color: #553d7c;
     background-color: #f7f6fa;
+    font-weight:bolder;
   }
   .test-col {
     margin-top: 20px;
@@ -84,3 +95,7 @@
  .test-col {
   margin-top: 56px;
 }
+@media (max-width: 430px) {
+.test-col-panels {
+  height: 260px;
+}}

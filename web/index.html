@@ -1,108 +1,172 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <title>Test Excercise</title>
+  <title>Test Excercise</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/test.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/test.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="dashboard.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="dashboard.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <!-- Just for debugging purposes. Don't actually copy this line! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+      <![endif]-->
+    </head>
 
-  <body>
+    <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container container-fluid">
+          <div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+            <a class="navbar-brand" href="#">Test Excercise</a>
+          </div>
+          <div>
+            <ul class="test-nav nav navbar-nav navbar-right">
+              <li><a href="#">Welcome John</a></li>
+              <li><a href="#" class="glyphicon glyphicon-wrench"></a></li>
+              <li><a href="#">Currency</a></li>
+              <li>
+                <div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle test-btn-dropdown" data-toggle="dropdown">
+    USD <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">AUD</a></li>
+    <li><a href="#">EUR</a></li>
+    <li><a href="#">NZD</a></li>
+  </ul>
+</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <div class="container container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Test Excercise</a>
-        </div>
-        <div>
-          <ul class="test-nav nav navbar-nav navbar-right">
-            <li><a href="#">Welcome John</a></li>
-            <li><a href="#" class="glyphicon glyphicon-wrench"></a></li>
-            <li><a href="#">Currency</a></li>
-            <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">AUD <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-            <li><a href="#">EUR</a></li>
-            <li><a href="#">USD</a></li>
-            <li><a href="#">NZD</a></li>
-          </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+        <div class="row">
+          <div class="col-sm-3 test-col">
+            <div class="sidebar-nav">
+              <div class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <span class="visible-xs navbar-brand">Sidebar menu</span>
+                </div>
+                <div class="navbar-collapse collapse sidebar-navbar-collapse">
+                  <ul class="nav navbar-nav">
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Account Details</a></li>
+                    <li class="active"><a href="#">Domains</a></li>
+                    <li><a href="#">New TLDs</a></li>
+                    <li><a href="#">SSL Certificates</a></li>
+                    <li><a href="#">Hosting</a></li>
+                    <li><a href="#">Phone Numbers</a></li>
+                    <li><a href="#">New TLDs</a></li>
+                    <li><a href="#">New TLDs</a></li>
+                    <li><a href="#">New TLDs</a></li>
+                  </ul>
+                </div><!--/.nav-collapse -->
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-9 test-col-panels">
+           <h1>Dashboard</h1> 
+           <div class="panel panel-default test-panel">
+             <div class="panel-heading">Credit</div>
+             <div class="panel-body">$5550</div>
+           </div>
+           <div class="panel panel-default test-panel">
+             <div class="panel-heading">Call Credit</div>
+             <div class="panel-body test-panel-padding">$5550<button class="btn btn-primary btn=sm pull-right">Buy more</button></div>
+           </div>
+         </div>
+         <div class="col-sm-9">
+          <h3>Your domains</h3>
+          <div class="panel panel-primary">
+            <!-- Default panel contents -->
+            <div class="panel-heading">Domains</div>
+            <div class="panel-body">
 
-    <div class="container container-fluid">
-      <div class="row">
-  <div class="col-sm-3 test-col">
-    <div class="sidebar-nav">
-      <div class="navbar navbar-default" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <span class="visible-xs navbar-brand">Sidebar menu</span>
-        </div>
-        <div class="navbar-collapse collapse sidebar-navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Account Details</a></li>
-            <li class="active"><a href="#">Domains</a></li>
-            <li><a href="#">New TLDs</a></li>
-            <li><a href="#">SSL Certificates</a></li>
-            <li><a href="#">Hosting</a></li>
-            <li><a href="#">Phone Numbers</a></li>
-            <li><a href="#">New TLDs</a></li>
-            <li><a href="#">New TLDs</a></li>
-            <li><a href="#">New TLDs</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+              <!-- Table -->
+              <table class="table test-table">
+                <thead>
+                  <tr>
+                    <th><input type="checkbox"></th>
+                    <th>Domain Name</th>
+                    <th>Country</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td>yourdomain.com</td>
+                    <td>Singapore</td>
+                    <td class="text-success"><span class="glyphicon glyphicon-ok-sign"></span>Avaible</td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td>yourdomain.com</td>
+                    <td>Singapore</td>
+                    <td class="text-danger"><span class="glyphicon glyphicon-remove-sign"></span>Registered<button class="btn btn-primary btn-xs">Whois</button></td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td>yourdomain.com</td>
+                    <td>Singapore</td>
+                    <td class="text-warning"><span class="glyphicon glyphicon-question-sign"></span>Possibly Avaible</td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td>yourdomain.com</td>
+                    <td>Singapore</td>
+                    <td class="text-warning"><span class="glyphicon glyphicon-question-sign"></span>Possibly Avaible</td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td>yourdomain.com</td>
+                    <td>Singapore</td>
+                    <td class="text-primary"><span class="glyphicon glyphicon-exclamation-sign"></span>Promo</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+        </div> 
       </div>
-    </div>
-  </div>
-  <div class="col-sm-9">
-   <h1>Dashboard</h1> 
-   <div class="panel panel-default test-panel">
-   <div class="panel-heading">Credit</div>
-   <div class="panel-body">$5550</div>
-  </div>
-   <div class="panel panel-default test-panel">
-   <div class="panel-heading">Call Credit</div>
-   <div class="panel-body test-panel-padding">$5550<button class="btn btn-primary btn=sm pull-right">Buy more</button></div>
-  </div>
-</div> 
       </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
-</html>
+  </html>
